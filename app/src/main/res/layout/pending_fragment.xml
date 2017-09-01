@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ExpandableListView
+        android:id="@+id/listview_pending_data"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/_45sdp"
+        android:dividerHeight="@dimen/_5sdp"
+        android:groupIndicator="@null"
+        android:layout_below="@+id/lnr_data_header"
+        android:divider="@android:color/transparent"/>
+
+
+
+
+
+</LinearLayout>

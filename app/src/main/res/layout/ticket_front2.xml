@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topPanel"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/til_offence_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:textColorHint="@color/bg_color">
+
+                    <EditText
+                        android:id="@+id/edittext_offence_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="Offence No"
+                        android:imeOptions="actionDone"
+                        android:maxLength="20"
+                        android:maxLines="2"
+                        android:paddingRight="@dimen/_10sdp"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:textColor="#000000"
+                        android:inputType="textVisiblePassword"
+                        android:textSize="@dimen/_13sdp" />
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageView
+                    android:id="@+id/imageView_offence"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|bottom"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:paddingRight="@dimen/_10sdp"
+                    android:paddingTop="@dimen/_15sdp"
+                    android:src="@mipmap/down_arrow" />
+
+            </FrameLayout>
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="#E1E1E1" />
+
+
+            <FrameLayout
+                android:id="@+id/frame_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/til_offdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:paddingLeft="@dimen/_5sdp"
+
+                    android:textColorHint="@color/bg_color">
+
+                    <EditText
+                        android:id="@+id/edittext_offdate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:enabled="false"
+                        android:hint="Date of Offence"
+                        android:inputType="date"
+                        android:maxLength="20"
+                        android:maxLines="1"
+                        android:paddingRight="@dimen/_10sdp"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_13sdp" />
+                </android.support.design.widget.TextInputLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_offence_date"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView_offence_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|bottom"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:paddingRight="@dimen/_10sdp"
+                    android:paddingTop="@dimen/_15sdp"
+                    android:src="@mipmap/down_arrow" />
+
+            </FrameLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="#E1E1E1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <fr.ganfra.materialspinner.MaterialSpinner
+                    android:id="@+id/spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:popupBackground="#f0f0f0"
+                    android:minHeight="@dimen/_10sdp"
+                    app:ms_arrowColor="#03A9F4"
+                    android:fadeScrollbars="false"
+                    app:ms_arrowSize="16dp"
+                    app:ms_baseColor="@color/view"
+                    app:ms_errorColor="@color/red"
+                    app:ms_floatingLabelColor="#03A9F4"
+                    app:ms_floatingLabelText="Contrary to"
+                    app:ms_hint="Contrary to"
+                    app:ms_hintColor="@color/bg_color"
+                    app:ms_typeface="fonts/opensans.ttf"
+                    app:ms_multiline="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/til_regulation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:visibility="gone"
+                    android:textColorHint="@color/bg_color">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/spn_regulation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="Regulation"
+                        android:inputType="textAutoComplete|textAutoCorrect|number"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:textColor="@color/bg_color"
+                        android:textColorHint="#FDFDFD"
+
+                        android:textSize="@dimen/_12sdp" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="#E1E1E1"
+                        android:paddingTop="@dimen/_5sdp" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/til_section_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:textColorHint="@color/bg_color">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/spinner1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="Section Number"
+                        android:inputType="textAutoComplete|textAutoCorrect|number"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:textColor="@color/bg_color"
+                        android:textColorHint="#FDFDFD"
+
+                        android:textSize="@dimen/_12sdp" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="#E1E1E1"
+                        android:paddingTop="@dimen/_5sdp" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <fr.ganfra.materialspinner.MaterialSpinner
+                        android:id="@+id/spinner2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:popupBackground="#f0f0f0"
+                        app:ms_arrowColor="#03A9F4"
+                        app:ms_arrowSize="16dp"
+                        app:ms_errorColor="@color/red"
+                        app:ms_baseColor="@color/view"
+                        android:visibility="gone"
+                        app:ms_floatingLabelColor="#03A9F4"
+                        app:ms_floatingLabelText="Did Commit the offence of"
+                        app:ms_hint="Did Commit the offence of"
+                        app:ms_hintColor="@color/bg_color"
+                        android:fadeScrollbars="false"
+
+                        app:ms_multiline="true" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_35sdp"
+                    android:background="@drawable/button_bg"
+                    android:paddingLeft="@dimen/_45sdp"
+                    android:paddingRight="@dimen/_45sdp"
+                    android:text="Submit"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/_15sdp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

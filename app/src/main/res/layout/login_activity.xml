@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/bg_color"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/header_small"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:gravity="start|center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/bg_color"
+                android:paddingBottom="@dimen/_7sdp"
+                android:text="MobiSq"
+                android:textSize="@dimen/_20sdp"/>
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/bg_color"
+                android:paddingBottom="@dimen/_7sdp"
+                android:text="Login"
+                android:textSize="@dimen/_10sdp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+<LinearLayout
+    android:id="@+id/lnr_login_det"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_below="@+id/head"
+    android:layout_marginLeft="@dimen/_20sdp"
+    android:layout_marginRight="@dimen/_20sdp"
+    android:layout_marginTop="@dimen/_30sdp"
+    android:layout_height="wrap_content">
+
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edt_business_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Business Key"
+            android:inputType="textCapSentences"
+            android:singleLine="true" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edt_user_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textCapSentences"
+            android:singleLine="true" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edt_user_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textCapSentences"
+            android:singleLine="true" />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/lnr_button"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/lnr_login_det"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:gravity="center"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="@dimen/_25sdp"
+            android:paddingRight="@dimen/_25sdp"
+            android:textSize="@dimen/_15sdp"
+            android:background="@drawable/button_bg"
+            android:layout_gravity="center"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <LinearLayout android:id="@+id/bottom_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="Version 1.1"
+            android:layout_gravity="bottom"
+            android:textStyle="bold"
+            android:layout_height="match_parent" />
+
+
+        <!-- menu bar -->
+        <!--   <include layout="@layout/footer_privacyplolicy" />-->
+    </LinearLayout>
+</RelativeLayout>
