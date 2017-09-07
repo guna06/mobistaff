@@ -44,10 +44,22 @@
       <file leaf-file-name="ItemOneFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/truiton/bottomnavigation/ItemOneFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="61" column="63" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="63" />
+            <state relative-caret-position="161">
+              <caret line="184" column="69" selection-start-line="184" selection-start-column="69" selection-end-line="184" selection-end-column="69" />
               <folding>
-                <marker date="1504766502274" expanded="false" signature="3315:9414" ph="{...}" />
+                <marker date="1504766502274" expanded="true" signature="3315:9414" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PendingStatusAdapter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/truiton/bottomnavigation/PendingStatusAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2465">
+              <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#8760#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,8 +68,8 @@
       <file leaf-file-name="pending_view.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/pending_view.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="527">
+              <caret line="34" column="47" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="47" />
               <folding>
                 <element signature="e#411#425#0" expanded="true" />
                 <element signature="e#459#473#0" expanded="true" />
@@ -72,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pending_child_view.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pending_child_view.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/pending_child_view.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="137" column="43" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="43" />
+            <state relative-caret-position="235">
+              <caret line="117" column="52" selection-start-line="117" selection-start-column="52" selection-end-line="117" selection-end-column="52" />
               <folding>
                 <element signature="e#617#632#0" expanded="true" />
                 <element signature="e#1112#1127#0" expanded="true" />
@@ -98,20 +110,20 @@
                 <element signature="e#4114#4128#0" expanded="true" />
                 <element signature="e#4436#4451#0" expanded="true" />
                 <element signature="e#4497#4511#0" expanded="true" />
-                <element signature="e#4830#4845#0" expanded="true" />
-                <element signature="e#5066#5081#0" expanded="true" />
-                <element signature="e#5175#5189#0" expanded="true" />
-                <element signature="e#5754#5769#0" expanded="true" />
-                <element signature="e#6017#6032#0" expanded="true" />
-                <element signature="e#6484#6499#0" expanded="true" />
-                <element signature="e#6729#6744#0" expanded="true" />
-                <element signature="e#7197#7212#0" expanded="true" />
-                <element signature="e#7389#7404#0" expanded="true" />
-                <element signature="e#7703#7718#0" expanded="true" />
-                <element signature="e#7837#7852#0" expanded="true" />
-                <element signature="e#8106#8121#0" expanded="true" />
-                <element signature="e#8383#8397#0" expanded="true" />
-                <element signature="e#8431#8446#0" expanded="true" />
+                <element signature="e#4829#4844#0" expanded="true" />
+                <element signature="e#5065#5080#0" expanded="true" />
+                <element signature="e#5174#5188#0" expanded="true" />
+                <element signature="e#5753#5768#0" expanded="true" />
+                <element signature="e#6012#6027#0" expanded="true" />
+                <element signature="e#6479#6494#0" expanded="true" />
+                <element signature="e#6724#6739#0" expanded="true" />
+                <element signature="e#7192#7207#0" expanded="true" />
+                <element signature="e#7384#7399#0" expanded="true" />
+                <element signature="e#7698#7713#0" expanded="true" />
+                <element signature="e#7832#7847#0" expanded="true" />
+                <element signature="e#8101#8116#0" expanded="true" />
+                <element signature="e#8378#8392#0" expanded="true" />
+                <element signature="e#8426#8441#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1972,6 +1984,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/pending_view.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/button_bg.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/pending_child_view.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/truiton/bottomnavigation/PendingStatusAdapter.java" />
       </list>
     </option>
   </component>
@@ -2474,7 +2487,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3566553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2483,7 +2496,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09556314" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31068704" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31068704" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2605,7 +2618,7 @@
         <state relative-caret-position="306">
           <caret line="42" column="58" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="58" />
           <folding>
-            <marker date="1504766502274" expanded="false" signature="3315:9414" ph="{...}" />
+            <marker date="1504766502274" expanded="true" signature="3315:9414" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -2772,6 +2785,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2787,6 +2801,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1470#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2968,16 +2985,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/truiton/bottomnavigation/ItemOneFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="61" column="63" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="63" />
-          <folding>
-            <marker date="1504766502274" expanded="false" signature="3315:9414" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_item_one.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -2997,10 +3004,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/samp.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/pending_view.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="527">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="47" />
           <folding>
             <element signature="e#411#425#0" expanded="true" />
             <element signature="e#459#473#0" expanded="true" />
@@ -3014,15 +3026,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/samp.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/pending_child_view.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="137" column="43" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="43" />
+        <state relative-caret-position="235">
+          <caret line="117" column="52" selection-start-line="117" selection-start-column="52" selection-end-line="117" selection-end-column="52" />
           <folding>
             <element signature="e#617#632#0" expanded="true" />
             <element signature="e#1112#1127#0" expanded="true" />
@@ -3044,25 +3051,45 @@
             <element signature="e#4114#4128#0" expanded="true" />
             <element signature="e#4436#4451#0" expanded="true" />
             <element signature="e#4497#4511#0" expanded="true" />
-            <element signature="e#4830#4845#0" expanded="true" />
-            <element signature="e#5066#5081#0" expanded="true" />
-            <element signature="e#5175#5189#0" expanded="true" />
-            <element signature="e#5754#5769#0" expanded="true" />
-            <element signature="e#6017#6032#0" expanded="true" />
-            <element signature="e#6484#6499#0" expanded="true" />
-            <element signature="e#6729#6744#0" expanded="true" />
-            <element signature="e#7197#7212#0" expanded="true" />
-            <element signature="e#7389#7404#0" expanded="true" />
-            <element signature="e#7703#7718#0" expanded="true" />
-            <element signature="e#7837#7852#0" expanded="true" />
-            <element signature="e#8106#8121#0" expanded="true" />
-            <element signature="e#8383#8397#0" expanded="true" />
-            <element signature="e#8431#8446#0" expanded="true" />
+            <element signature="e#4829#4844#0" expanded="true" />
+            <element signature="e#5065#5080#0" expanded="true" />
+            <element signature="e#5174#5188#0" expanded="true" />
+            <element signature="e#5753#5768#0" expanded="true" />
+            <element signature="e#6012#6027#0" expanded="true" />
+            <element signature="e#6479#6494#0" expanded="true" />
+            <element signature="e#6724#6739#0" expanded="true" />
+            <element signature="e#7192#7207#0" expanded="true" />
+            <element signature="e#7384#7399#0" expanded="true" />
+            <element signature="e#7698#7713#0" expanded="true" />
+            <element signature="e#7832#7847#0" expanded="true" />
+            <element signature="e#8101#8116#0" expanded="true" />
+            <element signature="e#8378#8392#0" expanded="true" />
+            <element signature="e#8426#8441#0" expanded="true" />
           </folding>
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/truiton/bottomnavigation/ItemOneFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="184" column="69" selection-start-line="184" selection-start-column="69" selection-end-line="184" selection-end-column="69" />
+          <folding>
+            <marker date="1504766502274" expanded="true" signature="3315:9414" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/truiton/bottomnavigation/PendingStatusAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#8760#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

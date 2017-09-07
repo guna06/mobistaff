@@ -118,7 +118,6 @@
                     android:textSize="@dimen/_13sdp"
                     android:layout_marginTop="@dimen/_5sdp"
                     android:text="Remarks: Will be serviced and repaired"/>
-
             </LinearLayout>
 
 
@@ -149,11 +148,7 @@
                         android:layout_height="wrap_content"
                         android:background="@mipmap/normal_icon"
                         android:layout_marginTop="@dimen/_10sdp"/>
-
                 </LinearLayout>
-
-
-
 
             </LinearLayout>
         </LinearLayout>
