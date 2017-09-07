@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MobiStaff.iml" filepath="$PROJECT_DIR$/MobiStaff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BottomNavigation.iml" filepath="$PROJECT_DIR$/BottomNavigation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BottomNavigation-master.iml" filepath="$PROJECT_DIR$/BottomNavigation-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

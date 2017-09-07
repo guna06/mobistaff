@@ -9,7 +9,7 @@
     <LinearLayout
         android:id="@+id/head"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_150sdp"
+        android:layout_height="@dimen/_130sdp"
         android:background="@mipmap/header_dash"
         android:orientation="vertical">
 
@@ -27,12 +27,12 @@
                 android:orientation="horizontal">
 
 
-                <ImageView
+             <!--   <ImageView
                     android:id="@+id/img_nav"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/_20sdp"
-                    android:background="@mipmap/back_arrow"/>
+                    android:background="@mipmap/back_arrow"/>-->
 
 
 
@@ -57,7 +57,7 @@
                 android:gravity="center"
                 android:textColor="@color/bg_color"
                 android:text="Dashboard"
-                android:textSize="@dimen/_10sdp"/>
+                android:textSize="@dimen/_11sdp"/>
         </LinearLayout>
 
 
@@ -94,8 +94,10 @@
 
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/_15sdp"
+            android:gravity="center"
             android:text="Service"/>
     </LinearLayout>
 
@@ -117,8 +119,10 @@
 
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/_15sdp"
             android:text="Place Order"/>
     </LinearLayout>
 
@@ -139,8 +143,10 @@
 
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/_15sdp"
+            android:gravity="center"
             android:text="Exchange"/>
     </LinearLayout>
 
@@ -161,17 +167,19 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="0.5dp"
-            android:background="#000000"
+            android:layout_height="2dp"
+            android:background="#E0E0E0"
             android:layout_marginTop="@dimen/_60sdp"/>
 
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:id="@+id/lnr_attendance"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:orientation="vertical"
-            android:layout_marginTop="@dimen/_10sdp"
+            android:padding="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
             android:gravity="center">
 
             <ImageView
@@ -184,6 +192,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="@dimen/_15sdp"
                 android:text="Attendance"/>
         </LinearLayout>
 

@@ -5,13 +5,12 @@ android {
     buildToolsVersion "25.0.2"
     useLibrary 'org.apache.http.legacy'
     defaultConfig {
-        applicationId "com.sqindia.mobistaff"
-        minSdkVersion 16
+        applicationId "com.truiton.bottomnavigation"
+        minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        vectorDrawables.useSupportLibrary = true
     }
     buildTypes {
         release {
@@ -20,7 +19,6 @@ android {
         }
     }
 }
-
 
 repositories {
 
